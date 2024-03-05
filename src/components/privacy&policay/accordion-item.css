@@ -1,0 +1,19 @@
+#accordion-item {
+  background-color: #fafafa;
+}
+#accordion-item .accordion-button {
+  background-color: #f8f4fc;
+  font-size: 17px;
+  font-weight: bold;
+  outline: none;
+  box-shadow: none;
+}
+#accordion-item .accordion-button::after {
+  background-image: none;
+  content: url(../home/images/accordion-open.png);
+}
+#accordion-item .accordion-button:not(.collapsed)::after {
+  background-image: none;
+
+  content: url(../home/images/accordion-close.png);
+}

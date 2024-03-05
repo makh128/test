@@ -1,0 +1,30 @@
+.home-blogs-section {
+  background-color: #f4f4f2;
+  padding: 100px 0;
+}
+.blog-blogs-section {
+  background-color: #f4f4f2;
+}
+#blog-img {
+  padding: 0 10px;
+}
+#blogs-carousel .carousel-indicators {
+  display: none;
+}
+#blogs-carousel .carousel-control-prev {
+  display: none;
+}
+#blogs-carousel .carousel-control-next {
+  width: 0;
+}
+@media (max-width: 600px) {
+  #blogs-carousel .carousel-control-next {
+    width: 15%;
+  }
+  #card-body {
+    margin-left: 20px;
+  }
+  #blog-img {
+    padding: 0 20px;
+  }
+}

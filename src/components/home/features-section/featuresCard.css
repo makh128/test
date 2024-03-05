@@ -1,0 +1,24 @@
+#feature-card {
+  border: none;
+  border-radius: 20px;
+  background: transparent;
+  transition: 0.3s;
+}
+#feature-card:hover {
+  background-color: rgba(27, 27, 27, 0.4);
+}
+.card-image {
+  margin-left: 15px;
+}
+.f-tahoma{
+  font-family: tahoma;
+}
+/* @media (max-width: 600px) {
+  #feature-card {
+    padding: 0;
+    text-align: center;
+  }
+  .card-image {
+    margin-left: 0;
+  }
+} */

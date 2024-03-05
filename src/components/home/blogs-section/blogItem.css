@@ -1,0 +1,14 @@
+#explore {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+#explore a {
+  font-weight: bold;
+  color: #9f55f2;
+  text-decoration: none;
+}
+.blog-card {
+  /* z-index: -1; */
+  width: 100%;
+}

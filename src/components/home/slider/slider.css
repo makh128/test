@@ -1,0 +1,58 @@
+#carousel {
+  height: 100vh;
+}
+.carousel-container .carousel-item {
+  position: relative;
+  height: 100vh; /* Set height to 100vh */
+}
+
+.carousel-container .carousel-inner {
+  height: 100%;
+}
+
+#carousel .carousel-indicators .active {
+  width: 50px;
+  background-color: #9f55f2; /* Change the color of the active indicator */
+}
+#first-caption {
+  position: absolute;
+  top: 55%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.caption-head {
+  font-size: 53px;
+  font-family: oswald;
+}
+#app-img {
+  margin-top: 5rem;
+}
+
+@media (max-width: 992px) {
+  #app-img {
+    margin-bottom: 5rem;
+    width: 220px;
+  }
+}
+@media (max-width: 768px) {
+  #app-img {
+    display: none;
+  }
+  .caption {
+    top: 0;
+  }
+  .caption-head {
+    text-align: center;
+    font-size: 30px;
+  }
+  .caption p {
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  #carousel .carousel-control-prev,
+  #carousel .carousel-control-next {
+    display: none;
+  }
+}

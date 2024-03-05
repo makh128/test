@@ -1,0 +1,26 @@
+#sage-modal {
+  margin-right: 7rem;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  z-index: 100;
+}
+#sage-img {
+  width: 100px;
+}
+#sage-modal span {
+  color: #6638fb;
+}
+@media (max-width: 768px) {
+  #sage-modal {
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+  }
+  #sage-img {
+    width: 90px;
+  }
+}
+@media (max-width: 600px) {
+  #sage-modal {
+    margin-right: 3rem;
+  }
+}

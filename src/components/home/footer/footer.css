@@ -1,0 +1,42 @@
+.footer {
+  background: #0e0d20 0% 0% padding-box;
+}
+.copyRights-text {
+  font-size: 14px;
+}
+.social-icons a {
+  margin: 0 5px;
+}
+
+.social-media .text {
+  margin-top: 5px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.social-icons a img {
+  width: 20px;
+}
+.privacy a,
+.terms a {
+  font-size: 14px;
+}
+@media (max-width: 1200px) {
+  .footer {
+    flex-direction: column;
+  }
+  .privacy-terms {
+    margin: 10px 0;
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+  .privacy-terms {
+    margin: 10px 0;
+  }
+  .copyRights {
+    margin: 0 15px;
+    text-align: center;
+  }
+}

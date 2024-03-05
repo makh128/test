@@ -1,0 +1,80 @@
+.install-section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url(../images/to_store_bg.png);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.install-text {
+  margin-left: 5rem;
+}
+.install-text h1 {
+  font-size: 60px;
+  color: #eab5f9;
+}
+.install-text h6 {
+  font-size: 28px;
+  color: #add3f7;
+}
+.install-text p {
+  color: #ffffff;
+  margin-bottom: 25px;
+  font-size: 19px;
+}
+
+.install-text .links a img {
+  width: 175px;
+  height: 55px;
+}
+
+@media (max-width: 992px) {
+  .install-text h1 {
+    font-size: 45px;
+  }
+  .install-text h6 {
+    font-size: 22px;
+  }
+  .install-text p {
+    font-size: 17px;
+  }
+  .install-text .links a img {
+    width: 165px;
+    height: 50px;
+  }
+  #install-app-img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  #container {
+    flex-direction: column;
+  }
+  .install-text h1 {
+    font-size: 35px;
+  }
+  .install-text h6 {
+    font-size: 18px;
+  }
+  .install-text p {
+    font-size: 14px;
+  }
+  .install-text .links a img {
+    width: 150px;
+    height: 45px;
+  }
+  #install-app-img {
+    width: 190px;
+    margin-bottom: 25px;
+  }
+  .install-text {
+    margin-left: 0;
+
+    align-items: center;
+    justify-content: center;
+  }
+}

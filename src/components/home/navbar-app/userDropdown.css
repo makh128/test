@@ -1,0 +1,12 @@
+#dropdown-basic {
+  background-color: transparent;
+  border: none;
+}
+
+#drop-item {
+  border-bottom: 1px solid #dee2e6;
+}
+#sign-out {
+  font-weight: bold;
+  color: #9f55f2;
+}
