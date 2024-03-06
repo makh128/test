@@ -1,0 +1,18 @@
+
+To run the project, follow these steps:
+1- Open the command prompt.
+2- Type "npm install react react-dom" and wait for the process to finish.
+3- Open the command prompt in the project's directory and type "npm start".
+4- The browser will automatically open the project.
+
+Alternatively,
+
+1-Open the project folder in Visual Studio Code.
+2-Open the terminal.
+3-Type "npm install react react-dom" and wait for the process to finish.
+4-Open the command prompt in the project's directory and type "npm start".
+
+To test the sign-in functionality of the project, please use the following details:
+Email:"wisepay@gmail.com"
+Password:"wisepay"
+ 
